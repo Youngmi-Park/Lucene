@@ -26,5 +26,5 @@
   
    ![image](https://user-images.githubusercontent.com/53163222/99187594-dfe97d00-279a-11eb-967a-efa88e993e85.png)
 
-*Reference
+*Reference<br/>
 검색과 색인, 그리고 강력한 지원군 루씬(Lucene) https://m.blog.naver.com/tmondev/220323614797
