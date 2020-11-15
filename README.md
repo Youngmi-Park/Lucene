@@ -1,6 +1,5 @@
-# Lucene
 # 1. Lucene
-  1) What is Lucene?
+###  1) What is Lucene?
   ● 특징
     고성능 정보 검색(IR*, Information retrieval) 라이브러리
     애플리케이션에 정보 검색 기능 추가 가능
@@ -13,7 +12,7 @@
   
   *IR (Information Retrieval): 문서를 검색하거나, 문서의 내용을 검색하거나, 문서와 연관된 메타 정보를 검색해 가는 과정
   
-  2) Preparing the environment
+###  2) Preparing the environment
    - Eclipse Install
    - Tomcat Install
    - Download Lucene 8.7.0 (https://lucene.apache.org/core/downloads.html)
