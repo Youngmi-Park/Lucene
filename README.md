@@ -12,13 +12,18 @@
   <i>* IR (Information Retrieval): 문서를 검색하거나, 문서의 내용을 검색하거나, 문서와 연관된 메타 정보를 검색해 가는 과정</i>
   
 ###  2) Preparing the environment
-   -Eclipse Install<br/>
-   -Tomcat Install<br/>
-   -Download Lucene 8.7.0 (https://lucene.apache.org/core/downloads.html)<br/>
+   - Eclipse Install<br/>
+   - Tomcat Install<br/>
+   - Download Lucene 8.7.0 (https://lucene.apache.org/core/downloads.html)<br/>
   
   3) How to Use
-   - 
-   
-  
-   
+   (1) Eclipse 프로젝트 생성
+   (2) Lucene import(Lucene 소스와 라이브러리를 추가하는 과정)
+      File System을 선택
+      Lucene 소스 디렉토리를 선택
+      select all
+      into folder에 프로젝트 선택
+   ![image](https://user-images.githubusercontent.com/53163222/99187594-dfe97d00-279a-11eb-967a-efa88e993e85.png)
+
 *Reference
+검색과 색인, 그리고 강력한 지원군 루씬(Lucene) https://m.blog.naver.com/tmondev/220323614797
