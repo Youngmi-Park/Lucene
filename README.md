@@ -15,7 +15,7 @@
    - Eclipse Install<br/>
    - Tomcat Install<br/>
    - Download Lucene 8.7.0 (https://lucene.apache.org/core/downloads.html)<br/>
-  
+  <pre>
   3) How to Use
    (1) Eclipse 프로젝트 생성
    (2) Lucene import(Lucene 소스와 라이브러리를 추가하는 과정)
@@ -23,6 +23,7 @@
       Lucene 소스 디렉토리를 선택
       select all
       into folder에 프로젝트 선택
+   </pre>
    ![image](https://user-images.githubusercontent.com/53163222/99187594-dfe97d00-279a-11eb-967a-efa88e993e85.png)
 
 *Reference
