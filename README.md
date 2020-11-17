@@ -51,14 +51,14 @@ lucene-demo-{버전}.jar<br/>
 
 ### 4. 색인 생성<br/>
 java org.apache.lucene.demo.IndexFiles -docs {색인할 대상이 파일들이 있는 폴더 경로}
-폴더 아래 있는 모든 텍스트 파일들의 색인을 만들게 된다.
+폴더 아래 있는 모든 텍스트 파일들의 Index를 생성한다.
 
 ![image](https://user-images.githubusercontent.com/53163222/99349107-78d4e100-28de-11eb-9dab-049500bb4e98.png)
 
 *텍스트 파일: 텍스트로 된 파일. html 같이 텍스트로 된 모든 파일을 뜻함. 단순히 txt를 말하는 것이 아님.
 
-테스트 용으로 넣어둔 Lucene파일(lucene-8.7.0)를 대상으로 색인을 생성 
-index 폴더가 새로 생기고 Lucene 소스코드 전체 index가 저장됨
+테스트 용으로 넣어둔 Lucene파일(lucene-8.7.0)를 대상으로 색인을 생성한다. 
+index 폴더가 새로 생기고 Lucene 소스코드 전체 index가 저장된다.
 
 ![image](https://user-images.githubusercontent.com/53163222/99349581-b1c18580-28df-11eb-84b0-966049573714.png)
 
@@ -74,8 +74,16 @@ java org.apache.lucene.demo.SearchFiles
 C:\Users\s_py9\LuceneDemoTest>java org.apache.lucene.demo.SearchFiles
 Enter query:
 
-Q1. 'String'이 몇 개 있는지 알고싶다.
+Q1. 'String'이 몇 개 있는가?
+String 입력
+![image](https://user-images.githubusercontent.com/53163222/99350005-ac186f80-28e0-11eb-9a52-b8e88cea0ac5.png)
+
+2208 total matching documents
+화면에 10개씩 보여주며 n, q 버튼으로 페이지 이동가능하다.
+n: next, 다음페이지
+q: quit, 중단
+숫자: 이동하고 싶은 페이지
 
 *Reference<br/>
 검색과 색인, 그리고 강력한 지원군 루씬(Lucene) https://m.blog.naver.com/tmondev/220323614797
-
+Lucene 8.7.0 demo API https://lucene.apache.org/core/8_7_0/demo/overview-summary.html#overview.description
