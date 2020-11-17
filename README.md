@@ -25,6 +25,40 @@
       into folder에 프로젝트 선택<br/>
   
    ![image](https://user-images.githubusercontent.com/53163222/99187594-dfe97d00-279a-11eb-967a-efa88e993e85.png)
+---------------------------------
+20201117 라이브러리 인식에 문제가 생겨 일단 command-line으로 Lucene demo 소스 코드를 살펴봄.
+
+1. JAVA 환경변수 설정
+
+2. 압출 풀고, 데모 위한 jar 4개 복사
+필요한 jar	위치
+lucene-core-{버전}.jar	
+lucene-queryparser-{버전}.jar	
+lucene-analyzers-common-{버전}.jar
+lucene-demo-{버전}.jar	
+
+3.jar 압축 풀기
+>jar xvf {파일명}.jar
+![image](https://user-images.githubusercontent.com/53163222/99347881-8341ab80-28db-11eb-9a93-fb90c035f5ba.png)
+
+나머지파일도 동일하게 진행
+
+![image](https://user-images.githubusercontent.com/53163222/99348222-6eb1e300-28dc-11eb-9f02-69e4085cb783.png)
+위와 같이 폴더가 생성됨.
+
+5. 색인 생성
+java org.apache.lucene.demo.IndexFiles -docs {색인할 대상이 파일들이 있는 폴더 경로}
+폴더 아래 있는 모든 텍스트 파일들의 색인을 만들게 된다.
+
+![image](https://user-images.githubusercontent.com/53163222/99349107-78d4e100-28de-11eb-9dab-049500bb4e98.png)
+
+*텍스트 파일: 텍스트로 된 파일. html 같이 텍스트로 된 모든 파일을 뜻함. 단순히 txt를 말하는 것이 아님.
+
+테스트 용으로 넣어둔 Lucene파일(lucene-8.7.0)를 대상으로 색인을 생성 
+(Lucene 소스코드 전체 index가 'index 폴더'에 저장된다.)
+
+
 
 *Reference<br/>
 검색과 색인, 그리고 강력한 지원군 루씬(Lucene) https://m.blog.naver.com/tmondev/220323614797
+
