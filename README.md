@@ -28,10 +28,12 @@
 ---------------------------------
 20201117 라이브러리 인식에 문제가 생겨 일단 command-line으로 Lucene demo 소스 코드를 살펴봄.
 
-1. JAVA 환경변수 설정
+Windows 10 / Java / Lucene-8.7.0
 
-2. 압출 풀고, 데모 위한 jar 4개 복사
-필요한 jar	위치
+#### 1. JAVA 환경변수 설정
+
+#### 2. 압출 풀고, 데모 위한 jar 4개 복사
+필요한 jar	위치<br>
 lucene-core-{버전}.jar	
 lucene-queryparser-{버전}.jar	
 lucene-analyzers-common-{버전}.jar
@@ -55,8 +57,9 @@ java org.apache.lucene.demo.IndexFiles -docs {색인할 대상이 파일들이 �
 *텍스트 파일: 텍스트로 된 파일. html 같이 텍스트로 된 모든 파일을 뜻함. 단순히 txt를 말하는 것이 아님.
 
 테스트 용으로 넣어둔 Lucene파일(lucene-8.7.0)를 대상으로 색인을 생성 
-(Lucene 소스코드 전체 index가 'index 폴더'에 저장된다.)
+index 폴더가 새로 생기고 Lucene 소스코드 전체 index가 저장됨
 
+![image](https://user-images.githubusercontent.com/53163222/99349581-b1c18580-28df-11eb-84b0-966049573714.png)
 
 
 *Reference<br/>
