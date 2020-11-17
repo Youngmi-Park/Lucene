@@ -25,30 +25,31 @@
       into folder에 프로젝트 선택<br/>
   
    ![image](https://user-images.githubusercontent.com/53163222/99187594-dfe97d00-279a-11eb-967a-efa88e993e85.png)
----------------------------------
+
 20201117 라이브러리 인식에 문제가 생겨 일단 command-line으로 Lucene demo 소스 코드를 살펴봄.
 
 Windows 10 / Java / Lucene-8.7.0
 
-#### 1. JAVA 환경변수 설정
+### 1. JAVA 환경변수 설정
 
-#### 2. 압출 풀고, 데모 위한 jar 4개 복사
-필요한 jar	위치<br>
-lucene-core-{버전}.jar	
-lucene-queryparser-{버전}.jar	
-lucene-analyzers-common-{버전}.jar
-lucene-demo-{버전}.jar	
+### 2. 압출 풀고, 데모 위한 jar 4개 복사
+필요한 jar	위치<br/>
+lucene-core-{버전}.jar<br/>
+lucene-queryparser-{버전}.jar<br/>	
+lucene-analyzers-common-{버전}.jar<br/>
+lucene-demo-{버전}.jar<br/>	
 
-3.jar 압축 풀기
+### 3.jar 압축 풀기
 >jar xvf {파일명}.jar
 ![image](https://user-images.githubusercontent.com/53163222/99347881-8341ab80-28db-11eb-9a93-fb90c035f5ba.png)
 
-나머지파일도 동일하게 진행
+나머지파일도 동일하게 진행<br/>
 
 ![image](https://user-images.githubusercontent.com/53163222/99348222-6eb1e300-28dc-11eb-9f02-69e4085cb783.png)
-위와 같이 폴더가 생성됨.
 
-5. 색인 생성
+위와 같이 폴더가 생성됨.<br/>
+
+### 4. 색인 생성<br/>
 java org.apache.lucene.demo.IndexFiles -docs {색인할 대상이 파일들이 있는 폴더 경로}
 폴더 아래 있는 모든 텍스트 파일들의 색인을 만들게 된다.
 
@@ -61,6 +62,19 @@ index 폴더가 새로 생기고 Lucene 소스코드 전체 index가 저장됨
 
 ![image](https://user-images.githubusercontent.com/53163222/99349581-b1c18580-28df-11eb-84b0-966049573714.png)
 
+
+### 5. 검색
+
+cmd창에 명령어 입력
+
+java org.apache.lucene.demo.SearchFiles
+
+쿼리(검색) 창이 나옴
+
+C:\Users\s_py9\LuceneDemoTest>java org.apache.lucene.demo.SearchFiles
+Enter query:
+
+Q1. 'String'이 몇 개 있는지 알고싶다.
 
 *Reference<br/>
 검색과 색인, 그리고 강력한 지원군 루씬(Lucene) https://m.blog.naver.com/tmondev/220323614797
