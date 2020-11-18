@@ -1,5 +1,5 @@
 #  Lucene
-###  I. What is Lucene?
+##  I. What is Lucene?
   - 특징<br/>
     + 자바로 구현된 고성능 정보 검색(IR*, Information retrieval) 라이브러리<br/>
     + 애플리케이션에 정보 검색 기능 추가 가능<br/>
