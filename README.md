@@ -1,4 +1,5 @@
-# I. What is Lucene?
+# Lucene
+## I. What is Lucene?
   - 특징<br/>
     + 자바로 구현된 고성능 정보 검색(IR*, Information retrieval) 라이브러리<br/>
     + 애플리케이션에 정보 검색 기능 추가 가능<br/>
@@ -10,7 +11,7 @@
   
   <i>* IR (Information Retrieval): 문서를 검색하거나, 문서의 내용을 검색하거나, 문서와 연관된 메타 정보를 검색해 가는 과정</i>
  
-# II. Lucene - Eclipse
+## II. Lucene - Eclipse
 ###  1. Preparing the environment
    - Eclipse Install<br/>
    - Tomcat Install<br/>
@@ -26,9 +27,7 @@
  
 2020.11.17 라이브러리 인식에 문제가 생겨 일단 command-line으로 Lucene demo 소스 코드먼저 살펴봄.
 
-<hr/>
-
-# III. Command line Lucene Demo
+## III. Command line Lucene Demo
 
 환경: Windows 10 / Java / Lucene-8.7.0
 
@@ -85,10 +84,35 @@ Q1. 'String'이 몇 개 있는지 알고싶다.
 
 = 2208 total matching documents
 
->n: 다음페이지     q: 중단     숫자: 이동하고싶은 페이지
+>n: 다음페이지         q: 중단          숫자: 이동하고싶은 페이지
 
+<hr> 
+# Lire
+## I. What is Lire
+	Java GPL library for CBIR(content based image retrieval) based on Lucene including multiple low level global and local features and different indexing strategies including bag of visual words and hashing.
 
+- 제공하는 기능
+  + Indexing photos
+  + Searching photos
+  + Browsing the created index
+  + Creating mosaic images based on indexed images
+
+## II. Lire Demo
+
+### 1. Lire Demo 다운받기
+Lire Demo (https://code.google.com/archive/p/lire/downloads)
+-provides a simple GUI interface for
+
+### 2. Lire Demo 실행하기
+```
+" java -jar LireDemo.jar "
+```
+Windows의 경우 두 번 클릭해도 실행가능하다.
+
+![image](https://user-images.githubusercontent.com/53163222/99487172-14328880-29a9-11eb-8496-6e925a701080.png)
+위와 같은 실행화면이 나타난다.
 
 *Reference<br/>
 검색과 색인, 그리고 강력한 지원군 루씬(Lucene) https://m.blog.naver.com/tmondev/220323614797
+SemanticMetadata-Lire http://www.semanticmetadata.net/lire/
 
