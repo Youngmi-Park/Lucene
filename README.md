@@ -53,7 +53,7 @@ lucene-demo-{버전}.jar<br/>
 java org.apache.lucene.demo.IndexFiles -docs {색인할 대상이 파일들이 있는 폴더 경로}
 폴더 아래 있는 모든 텍스트 파일들의 색인을 만들게 된다.
 
-![image](https://user-images.githubusercontent.com/53163222/99349107-78d4e100-28de-11eb-9dab-049500bb4e98.png)
+<img src='https://user-images.githubusercontent.com/53163222/99349107-78d4e100-28de-11eb-9dab-049500bb4e98.png'/>
 
 *텍스트 파일: 텍스트로 된 파일. html 같이 텍스트로 된 모든 파일을 뜻함. 단순히 txt를 말하는 것이 아님.
 
