@@ -49,7 +49,7 @@ jar xvf {파일명}.jar
 
 나머지파일도 동일하게 진행<br/>
 
-<img src='https://user-images.githubusercontent.com/53163222/99348222-6eb1e300-28dc-11eb-9f02-69e4085cb783.png'/>
+<img width="80%" src='https://user-images.githubusercontent.com/53163222/99348222-6eb1e300-28dc-11eb-9f02-69e4085cb783.png'/>
 
 위와 같이 폴더가 생성됨.<br/>
 
@@ -81,7 +81,7 @@ Enter query:
 ```
 
 Q1. 'String'이 몇 개 있는지 알고싶다.
-<img width="70%" src='https://user-images.githubusercontent.com/53163222/99483803-5c01e180-29a2-11eb-8c1b-10aa9f6355d1.png'/>
+<img width="80%" src='https://user-images.githubusercontent.com/53163222/99483803-5c01e180-29a2-11eb-8c1b-10aa9f6355d1.png'/>
 
 = 2208 total matching documents
 
