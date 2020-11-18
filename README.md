@@ -43,7 +43,9 @@
    + lucene-demo-{버전}.jar<br/>	
 
 ### 3.jar 압축 풀기
-```jar xvf {파일명}.jar```
+```
+jar xvf {파일명}.jar
+```
 <img src='image](https://user-images.githubusercontent.com/53163222/99347881-8341ab80-28db-11eb-9a93-fb90c035f5ba.png'/>
 
 나머지파일도 동일하게 진행<br/>
@@ -52,9 +54,9 @@
 
 위와 같이 폴더가 생성됨.<br/>
 
-### 4. 색인 생성<br/>
-java org.apache.lucene.demo.IndexFiles -docs {색인할 대상이 파일들이 있는 폴더 경로}
-폴더 아래 있는 모든 텍스트 파일들의 색인을 만들게 된다.
+### 4. Index 생성<br/>
+java org.apache.lucene.demo.IndexFiles -docs {Index를 생성할 대상 파일들이 있는 폴더 경로}
+폴더 안에 있는 모든 텍스트 파일들의 Index를 만들게 된다.
 
 <img src='https://user-images.githubusercontent.com/53163222/99349107-78d4e100-28de-11eb-9dab-049500bb4e98.png'/>
 
@@ -84,7 +86,8 @@ Q1. 'String'이 몇 개 있는지 알고싶다.
 
 = 2208 total matching documents
 
-*n: 다음페이지     q: 중단     숫자: 이동하고싶은 페이지
+>n: 다음페이지     q: 중단     숫자: 이동하고싶은 페이지
+
 *Reference<br/>
 검색과 색인, 그리고 강력한 지원군 루씬(Lucene) https://m.blog.naver.com/tmondev/220323614797
 
