@@ -29,7 +29,9 @@
 
 <hr>
 # III. Command line Lucene Demo
+
 환경: Windows 10 / Java / Lucene-8.7.0
+
 ### 1. JAVA 환경변수 설정
 
 ### 2. 압출 풀고, 데모 위한 jar 4개 복사
