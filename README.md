@@ -1,5 +1,5 @@
-#  I. Lucene
-###  1. What is Lucene?
+#  Lucene
+###  I. What is Lucene?
   - 특징<br/>
     + 자바로 구현된 고성능 정보 검색(IR*, Information retrieval) 라이브러리<br/>
     + 애플리케이션에 정보 검색 기능 추가 가능<br/>
@@ -12,12 +12,12 @@
   <i>* IR (Information Retrieval): 문서를 검색하거나, 문서의 내용을 검색하거나, 문서와 연관된 메타 정보를 검색해 가는 과정</i>
  
 # II. Lucene - Eclipse
-###  2. Preparing the environment
+###  1. Preparing the environment
    - Eclipse Install<br/>
    - Tomcat Install<br/>
    - Download Lucene 8.7.0 (https://lucene.apache.org/core/downloads.html)<br/>
 
-###  3. How to Use
+###  2. How to Use
    (1) Eclipse 프로젝트 생성<br/>
    (2) Lucene import(Lucene 소스와 라이브러리를 추가하는 과정)<br/>
       + File System을 선택<br/>
@@ -46,7 +46,7 @@
 ```
 jar xvf {파일명}.jar
 ```
-<img align='center' src='https://user-images.githubusercontent.com/53163222/99347881-8341ab80-28db-11eb-9a93-fb90c035f5ba.png'/>
+<img src='https://user-images.githubusercontent.com/53163222/99347881-8341ab80-28db-11eb-9a93-fb90c035f5ba.png'/>
 
 나머지파일도 동일하게 진행<br/>
 
