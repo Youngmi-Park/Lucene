@@ -89,7 +89,8 @@ Q1. 'String'이 몇 개 있는지 알고싶다.
 <hr> 
 # Lire
 ## I. What is Lire
-	Java GPL library for CBIR(content based image retrieval) based on Lucene including multiple low level global and local features and different indexing strategies including bag of visual words and hashing.
+
+Java GPL library for CBIR(content based image retrieval) based on Lucene including multiple low level global and local features and different indexing strategies including bag of visual words and hashing.
 
 - 제공하는 기능
   + Indexing photos
