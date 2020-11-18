@@ -46,7 +46,7 @@
 ```
 jar xvf {파일명}.jar
 ```
-<img src='image](https://user-images.githubusercontent.com/53163222/99347881-8341ab80-28db-11eb-9a93-fb90c035f5ba.png'/>
+<img align='center' src='https://user-images.githubusercontent.com/53163222/99347881-8341ab80-28db-11eb-9a93-fb90c035f5ba.png'/>
 
 나머지파일도 동일하게 진행<br/>
 
