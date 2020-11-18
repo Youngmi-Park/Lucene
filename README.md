@@ -40,12 +40,12 @@ lucene-analyzers-common-{버전}.jar<br/>
 lucene-demo-{버전}.jar<br/>	
 
 ### 3.jar 압축 풀기
->jar xvf {파일명}.jar
-![image](https://user-images.githubusercontent.com/53163222/99347881-8341ab80-28db-11eb-9a93-fb90c035f5ba.png)
+>jar xvf {파일명}.jar   
+<img src='image](https://user-images.githubusercontent.com/53163222/99347881-8341ab80-28db-11eb-9a93-fb90c035f5ba.png'/>
 
 나머지파일도 동일하게 진행<br/>
 
-![image](https://user-images.githubusercontent.com/53163222/99348222-6eb1e300-28dc-11eb-9f02-69e4085cb783.png)
+<img src='https://user-images.githubusercontent.com/53163222/99348222-6eb1e300-28dc-11eb-9f02-69e4085cb783.png'/>
 
 위와 같이 폴더가 생성됨.<br/>
 
@@ -60,15 +60,15 @@ java org.apache.lucene.demo.IndexFiles -docs {색인할 대상이 파일들이 �
 테스트 용으로 넣어둔 Lucene파일(lucene-8.7.0)를 대상으로 색인을 생성 
 index 폴더가 새로 생기고 Lucene 소스코드 전체 index가 저장됨
 
-![image](https://user-images.githubusercontent.com/53163222/99349581-b1c18580-28df-11eb-84b0-966049573714.png)
+<img src='https://user-images.githubusercontent.com/53163222/99349581-b1c18580-28df-11eb-84b0-966049573714.png'/>
 
 
 ### 5. 검색
 
 cmd창에 명령어 입력
-
+'''
 java org.apache.lucene.demo.SearchFiles
-
+'''
 쿼리(검색) 창이 나옴
 
 C:\Users\s_py9\LuceneDemoTest>java org.apache.lucene.demo.SearchFiles
