@@ -64,7 +64,7 @@ java org.apache.lucene.demo.IndexFiles -docs {Index를 생성할 대상 파일�
 테스트 용으로 넣어둔 Lucene파일(lucene-8.7.0)를 대상으로 색인을 생성 
 index 폴더가 새로 생기고 Lucene 소스코드 전체 index가 저장됨
 
-<img src='https://user-images.githubusercontent.com/53163222/99349581-b1c18580-28df-11eb-84b0-966049573714.png'/>
+<img width="20%" src='https://user-images.githubusercontent.com/53163222/99349581-b1c18580-28df-11eb-84b0-966049573714.png'/>
 
 
 ### 5. 검색
@@ -81,7 +81,7 @@ Enter query:
 ```
 
 Q1. 'String'이 몇 개 있는지 알고싶다.
-<img src='https://user-images.githubusercontent.com/53163222/99483803-5c01e180-29a2-11eb-8c1b-10aa9f6355d1.png'/>
+<img width="70%" src='https://user-images.githubusercontent.com/53163222/99483803-5c01e180-29a2-11eb-8c1b-10aa9f6355d1.png'/>
 
 = 2208 total matching documents
 
