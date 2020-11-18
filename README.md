@@ -69,11 +69,14 @@ java org.apache.lucene.demo.SearchFiles
 ```
 
 쿼리(검색) 창이 나옴
+```
 
 C:\Users\s_py9\LuceneDemoTest>java org.apache.lucene.demo.SearchFiles
 Enter query:
+```
 
 Q1. 'String'이 몇 개 있는지 알고싶다.
+
 
 *Reference<br/>
 검색과 색인, 그리고 강력한 지원군 루씬(Lucene) https://m.blog.naver.com/tmondev/220323614797
