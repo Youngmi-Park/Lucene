@@ -27,8 +27,10 @@
  
 2020.11.17 라이브러리 인식에 문제가 생겨 일단 command-line으로 Lucene demo 소스 코드먼저 살펴봄.
 
-<hr>
+<hr/>
+
 # III. Command line Lucene Demo
+
 
 환경: Windows 10 / Java / Lucene-8.7.0
 
