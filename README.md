@@ -7,7 +7,7 @@
     + 소프트웨어 재단에서 아파치 소프트웨어 라이센스로 배포<br/><br/> 
   - 장점<br/>
     + API를 통해 최소한의 노력으로 전문(full-text)색인과 검색 기능 사용 가능<br/>
-    +간결하면서도 매우 강력<br/>
+    + 간결하면서도 매우 강력<br/>
   
   <i>* IR (Information Retrieval): 문서를 검색하거나, 문서의 내용을 검색하거나, 문서와 연관된 메타 정보를 검색해 가는 과정</i>
   
@@ -31,11 +31,11 @@ Windows 10 / Java / Lucene-8.7.0
 ### 1. JAVA 환경변수 설정
 
 ### 2. 압출 풀고, 데모 위한 jar 4개 복사
-- jar	위치<br/>
- + lucene-core-{버전}.jar<br/>
- + lucene-queryparser-{버전}.jar<br/>	
- + lucene-analyzers-common-{버전}.jar<br/>
- + lucene-demo-{버전}.jar<br/>	
+ - jar	위치<br/>
+   + lucene-core-{버전}.jar<br/>
+   + lucene-queryparser-{버전}.jar<br/>	
+   + lucene-analyzers-common-{버전}.jar<br/>
+   + lucene-demo-{버전}.jar<br/>	
 
 ### 3.jar 압축 풀기
 >jar xvf {파일명}.jar   
@@ -75,6 +75,7 @@ Enter query:
 ```
 
 Q1. 'String'이 몇 개 있는지 알고싶다.
+<img src='https://user-images.githubusercontent.com/53163222/99483803-5c01e180-29a2-11eb-8c1b-10aa9f6355d1.png'/>
 
 = 2208 total matching documents
 
