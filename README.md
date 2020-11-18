@@ -87,6 +87,8 @@ Q1. 'String'이 몇 개 있는지 알고싶다.
 
 >n: 다음페이지     q: 중단     숫자: 이동하고싶은 페이지
 
+
+
 *Reference<br/>
 검색과 색인, 그리고 강력한 지원군 루씬(Lucene) https://m.blog.naver.com/tmondev/220323614797
 
