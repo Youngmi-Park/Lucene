@@ -23,10 +23,8 @@
       Lucene 소스 디렉토리를 선택<br/>
       select all<br/>
       into folder에 프로젝트 선택<br/>
-  
-   ![image](https://user-images.githubusercontent.com/53163222/99187594-dfe97d00-279a-11eb-967a-efa88e993e85.png)
-
-20201117 라이브러리 인식에 문제가 생겨 일단 command-line으로 Lucene demo 소스 코드를 살펴봄.
+ 
+2020.11.17 라이브러리 인식에 문제가 생겨 일단 command-line으로 Lucene demo 소스 코드를 살펴봄.
 
 Windows 10 / Java / Lucene-8.7.0
 
@@ -66,9 +64,10 @@ index 폴더가 새로 생기고 Lucene 소스코드 전체 index가 저장됨
 ### 5. 검색
 
 cmd창에 명령어 입력
-'''
+```
 java org.apache.lucene.demo.SearchFiles
-'''
+```
+
 쿼리(검색) 창이 나옴
 
 C:\Users\s_py9\LuceneDemoTest>java org.apache.lucene.demo.SearchFiles
