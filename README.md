@@ -49,7 +49,7 @@ jar xvf {파일명}.jar
 
 나머지파일도 동일하게 진행<br/>
 
-<img width="80%" src='https://user-images.githubusercontent.com/53163222/99348222-6eb1e300-28dc-11eb-9f02-69e4085cb783.png'/>
+<img src='https://user-images.githubusercontent.com/53163222/99348222-6eb1e300-28dc-11eb-9f02-69e4085cb783.png'/>
 
 위와 같이 폴더가 생성됨.<br/>
 
@@ -57,7 +57,7 @@ jar xvf {파일명}.jar
 java org.apache.lucene.demo.IndexFiles -docs {Index를 생성할 대상 파일들이 있는 폴더 경로}
 폴더 안에 있는 모든 텍스트 파일들의 Index를 만들게 된다.
 
-<img src='https://user-images.githubusercontent.com/53163222/99349107-78d4e100-28de-11eb-9dab-049500bb4e98.png'/>
+<img width="80%" src='https://user-images.githubusercontent.com/53163222/99349107-78d4e100-28de-11eb-9dab-049500bb4e98.png'/>
 
 *텍스트 파일: 텍스트로 된 파일. html 같이 텍스트로 된 모든 파일을 뜻함. 단순히 txt를 말하는 것이 아님.
 
