@@ -87,8 +87,8 @@ Q1. 'String'이 몇 개 있는지 알고싶다.
 >n: 다음페이지         q: 중단          숫자: 이동하고싶은 페이지
 
 <hr> 
-# Lire
 
+# Lire
 ## I. What is Lire
 
 Java GPL library for CBIR(content based image retrieval) based on Lucene including multiple low level global and local features and different indexing strategies including bag of visual words and hashing.
