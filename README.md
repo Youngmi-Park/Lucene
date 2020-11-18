@@ -1,5 +1,5 @@
-# 1. Lucene
-###  1) What is Lucene?
+#  I. Lucene
+###  1. What is Lucene?
   - 특징<br/>
     + 자바로 구현된 고성능 정보 검색(IR*, Information retrieval) 라이브러리<br/>
     + 애플리케이션에 정보 검색 기능 추가 가능<br/>
@@ -10,13 +10,14 @@
     + 간결하면서도 매우 강력<br/>
   
   <i>* IR (Information Retrieval): 문서를 검색하거나, 문서의 내용을 검색하거나, 문서와 연관된 메타 정보를 검색해 가는 과정</i>
-  
-###  2) Preparing the environment
+ 
+# II. Lucene - Eclipse
+###  2. Preparing the environment
    - Eclipse Install<br/>
    - Tomcat Install<br/>
    - Download Lucene 8.7.0 (https://lucene.apache.org/core/downloads.html)<br/>
 
-###  3) How to Use
+###  3. How to Use
    (1) Eclipse 프로젝트 생성<br/>
    (2) Lucene import(Lucene 소스와 라이브러리를 추가하는 과정)<br/>
       + File System을 선택<br/>
@@ -24,10 +25,11 @@
       + select all<br/>
       + into folder에 프로젝트 선택<br/>
  
-2020.11.17 라이브러리 인식에 문제가 생겨 일단 command-line으로 Lucene demo 소스 코드를 살펴봄.
+2020.11.17 라이브러리 인식에 문제가 생겨 일단 command-line으로 Lucene demo 소스 코드먼저 살펴봄.
 
-Windows 10 / Java / Lucene-8.7.0
-
+<hr>
+# III. Command line Lucene Demo
+환경: Windows 10 / Java / Lucene-8.7.0
 ### 1. JAVA 환경변수 설정
 
 ### 2. 압출 풀고, 데모 위한 jar 4개 복사
