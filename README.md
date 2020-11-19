@@ -34,11 +34,10 @@
 ### 1. JAVA 환경변수 설정
 
 ### 2. 압출 풀고, 데모 위한 jar 4개 복사
- - jar	위치<br/>
-   + lucene-core-{버전}.jar<br/>
-   + lucene-queryparser-{버전}.jar<br/>	
-   + lucene-analyzers-common-{버전}.jar<br/>
-   + lucene-demo-{버전}.jar<br/>	
+ - lucene-core-{버전}.jar<br/>
+ - lucene-queryparser-{버전}.jar<br/>	
+ - lucene-analyzers-common-{버전}.jar<br/>
+ - lucene-demo-{버전}.jar<br/>	
 
 ### 3.jar 압축 풀기
 ```
